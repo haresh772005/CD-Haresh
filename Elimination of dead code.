@@ -1,0 +1,23 @@
+Example 1 :
+Multiplication with powers of 2 can be replaced by shift left operator which is less
+expensive than multiplication
+a=a*16
+// Can be modified as :
+a = a<<4
+
+Example 2 :
+i = 1;																	
+while (i<10)														
+{																			
+y = i * 4;
+}
+
+
+//After Reduction
+i = 1
+t = 4
+{
+while( t<40)
+y = t;
+t = t + 4;
+}
